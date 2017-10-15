@@ -19,7 +19,7 @@
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     UIViewController *vc = [UIViewController new];
-    vc.view.backgroundColor = [UIColor greenColor];
+    vc.view.backgroundColor = [UIColor cyanColor];
     [_window setRootViewController:vc];
     
     [_window makeKeyAndVisible];

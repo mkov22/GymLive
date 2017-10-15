@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A64420B01F9384F700991F7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64420AF1F9384F700991F7E /* AppDelegate.m */; };
-		A64420B91F9384F700991F7E /* GymLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A64420B71F9384F700991F7E /* GymLive.xcdatamodeld */; };
 		A64420BB1F9384F700991F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64420BA1F9384F700991F7E /* Assets.xcassets */; };
 		A64420BE1F9384F700991F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64420BC1F9384F700991F7E /* LaunchScreen.storyboard */; };
 		A64420C11F9384F700991F7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64420C01F9384F700991F7E /* main.m */; };
@@ -18,7 +17,6 @@
 		A64420AB1F9384F700991F7E /* GymLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64420AE1F9384F700991F7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A64420AF1F9384F700991F7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A64420B81F9384F700991F7E /* GymLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymLive.xcdatamodel; sourceTree = "<group>"; };
 		A64420BA1F9384F700991F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64420BD1F9384F700991F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64420BF1F9384F700991F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				A64420BC1F9384F700991F7E /* LaunchScreen.storyboard */,
 				A64420BF1F9384F700991F7E /* Info.plist */,
 				A64420C01F9384F700991F7E /* main.m */,
-				A64420B71F9384F700991F7E /* GymLive.xcdatamodeld */,
 			);
 			path = GymLive;
 			sourceTree = "<group>";
@@ -136,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A64420B91F9384F700991F7E /* GymLive.xcdatamodeld in Sources */,
 				A64420C11F9384F700991F7E /* main.m in Sources */,
 				A64420B01F9384F700991F7E /* AppDelegate.m in Sources */,
 			);
@@ -310,19 +306,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A64420B71F9384F700991F7E /* GymLive.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A64420B81F9384F700991F7E /* GymLive.xcdatamodel */,
-			);
-			currentVersion = A64420B81F9384F700991F7E /* GymLive.xcdatamodel */;
-			path = GymLive.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A64420A31F9384F700991F7E /* Project object */;
 }
